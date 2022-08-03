@@ -1,0 +1,53 @@
+/* CSS Floats */
+
+body {
+    width: 600px;
+}
+
+#floats {
+    background: #d41;
+}
+
+#floats #container {
+    background: white;
+    padding: 20px;
+}
+
+#anu {
+    float: right;
+    max-width: 200px;
+    margin: 20px 0 10px 10px;
+}
+
+#mainColumn {
+    width: 330px;
+    float: left;
+    background: #555;
+    color: white;
+    padding: 0 10px;
+}
+
+#sidebar {
+    width: 180px;
+    float: right;
+    background: #fc3;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    clear: both;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#para2 {
+    clear: right;
+}
